@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    background-color: black;
+    border: none;
+}
+
+.notesBtn img {
+    width: 200px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.notesBtn {
+    margin-left: 20px;
+}
+
+.headerMoreOptions {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.headerMoreOptions img{
+    width: 70px;
+}
+.content {
+    height: 1750px;
+    padding: 50px;
+    font-size: 60px;
+    color: white;
+    outline: none;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footer img {
+    width: 80px;
+}
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.menuOpenFooter {
+    background-color: #1C1C1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menuOpenFooter button {
+    background-color: #1C1C1E;
+}
+
+/* ALIGN MENU*/
+.alignMenuOpen {
+    padding: 20px;
+}
+.alignMenuTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+}
+.alignMenuFonts {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+}
+.alignMenuFonts button{
+    color: white;
+    font-size: 60px;
+}
+.alignMenuStyles {
+    display: flex;
+    justify-content: center;
+}
+.alignMenuStyles button{
+    background-color: #1C1C1E;
+    color: white;
+    width: 220px;
+    height: 120px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.alignMenuAlignment {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.alignMenuList, .alignMenuPosition{
+    display: flex;
+}
+.alignMenuAlignment {
+    display: flex;
+    justify-content: space-around;
+}
+.alignMenuAlignment button{
+    background-color: #1C1C1E;
+    color: white;
+    width: 150px;
+    height: 120px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.fontBtn {
+    padding: 10px;
+    border-radius: 10px;
+}
+.closeAlignMenu {
+    border-radius: 50%;
+    background-color: #1C1C1E;
+    padding: 17px;
+}
+
+/* Select */
+
+.hide {
+    display: none;
+}
+.selectedBtn {
+    background-color: #E4AF0B;
+}
+

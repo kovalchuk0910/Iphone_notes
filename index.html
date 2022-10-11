@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="header">
+                <div>
+                    <button class="notesBtn">
+                        <img src="images/notes.PNG" alt="notes">
+                    </button>
+                </div>
+                 
+                <div class="headerMoreOptions">
+                    <button class="">
+                        <img src="images/share.PNG" alt="share">
+                    </button>
+    
+                    <button>
+                        <img src="images/more.PNG" alt="more">
+                    </button>
+                </div>
+                
+            </header>
+
+            <div class="content" contenteditable="true">
+                
+            </div>
+
+            <footer id="footer">
+                <div class="alignMenuOpen">
+                    <div class="alignMenuTitle">
+                        <span>Format</span>
+
+                        <button class="closeAlignMenu">
+                            <img src="menuOpen/close.PNG">
+                        </button>
+                    </div>
+
+                    <div class="alignMenuFonts">
+                        <button class="fontBtn" data="false" font="title1">Title</button>
+                        <button class="fontBtn" data="false" font="title2">Heading</button>
+                        <button class="fontBtn" data="false" font="title3">Subheading</button>
+                        <button class="fontBtn" data="false" font="body">Body</button>
+                    </div>
+
+                    <div class="alignMenuStyles">
+                        <button class="btn" data="bold">
+                            <i class="fa fa-bold"></i>
+                        </button>
+
+                        <button class="btn" data="italic">
+                            <i class="fa fa-italic"></i>
+                        </button>
+
+                        <button class="btn" data="underline">
+                            <i class="fa fa-underline"></i>
+                        </button>
+                    </div>
+
+                    <div class="alignMenuAlignment">
+                        <div class="alignMenuList">
+                            <button class="btn" data="insertUnorderedList">
+                                <i class="fa fa-list-ul"></i>
+                            </button>
+
+                            <button class="btn" data="insertOrderedList">
+                                <i class="fa fa-list-ol"></i>
+                            </button>
+                        </div>
+
+                        <div class="alignMenuPosition">
+                            <button class="btn" data="justifyLeft">
+                                <i class="fa fa-align-left"></i>
+                            </button>
+
+                            <button class="btn" data="justifyCenter">
+                                <i class="fa fa-align-center"></i>
+                            </button>
+
+                            <button class="btn" data="justifyRight">
+                                <i class="fa fa-align-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menuOpenFooter">
+                    <button>
+                        <img src="menuOpen/table.PNG" class="menuOpenImg">
+                    </button>
+
+                    <button class="menuFonts">
+                        <img src="menuOpen/font.PNG" class="menuOpenImg">
+                    </button>
+                    
+                    <button>
+                        <img src="menuOpen/ul.PNG" class="menuOpenImg">
+                    </button>
+
+                    <button class="btn" data="insertImage">
+                        <img src="menuOpen/photo.PNG" class="menuOpenImg">
+                    </button>
+
+                    <button>
+                        <img src="menuOpen/draw.PNG" class="menuOpenImg">
+                    </button>
+
+                    <button class="closeAlign">
+                        <img src="menuOpen/close.PNG" class="menuOpenImg">
+                    </button>
+                </div>
+
+                <div class="mainFooter">
+                    <button class="alignBtn">
+                        <img src="images/align.PNG" alt="align">
+                    </button>
+                
+                    <button class="btn" data="insertImage">
+                        <img src="images/photo.PNG" alt="align">
+                    </button>
+    
+                    <button>
+                        <img src="images/draw.PNG" alt="align">
+                    </button>
+    
+                    <button class="clearContentBtn">
+                        <img src="images/clear.PNG" alt="align">
+                    </button>
+                </div>
+            </footer>
+        </div>
+
+        <script src="scripts/openMenus.js"></script>
+        <script src="scripts/changeStyles.js"></script>
+        <script src="https://use.fontawesome.com/a31a3f8384.js"></script>
+    </body>
+</html>
